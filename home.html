@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+    <link rel="stylesheet" href="./Home.css">
+</head>
+<body>
+    <h1 class="center">Roll Dice</h1>
+
+    <h2 class="center">
+        Winner
+    </h2>
+    <div class="WinnerHolder" id="WinnerHolder"></div>
+    <div class="splitt">
+        <div class="side1">
+            <h2 class="center text_white">
+                Player 1
+            </h2>
+            <span class="bold pr_3">
+                Score
+            </span>
+            <span class="red" id="score1">
+                0
+            </span>
+            <div class="pt_3">
+                <span class="bold pr_3">
+                    Six Combo
+                </span>
+                <span class="red" id="sixCombo1">
+                    0
+                </span>
+            </div>
+            <div class="pt_3">
+                <span class="bold pr_3">
+                    Dice Value
+                </span>
+                <span id="diceValuePlayerOne"></span>
+            </div>
+            <button id="OneButton">
+                Roll Dice
+            </button>
+        </div>
+
+        <div class="side2">
+            <h2 class="center text_white">
+                Player 2
+            </h2>
+            <span class="bold pr_3">
+                Score
+            </span>
+            <span class="red" id="score2">
+                0
+            </span>
+            <div class="pt_3">
+                <span class="bold pr_3">
+                    Six Combo
+                </span>
+                <span class="red" id="sixCombo2">
+                    0
+                </span>
+            </div>
+            <div class="pt_3">
+                <span class="bold pr_3">
+                    Dice Value
+                </span>
+                <span id="diceValuePlayerTwo"></span>
+            </div>
+            <button id="TwoButton">
+                Roll Dice
+            </button>
+        </div>
+    </div>
+    <script src="./Home.js"></script>
+</body>
+</html>
